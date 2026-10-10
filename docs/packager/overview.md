@@ -3,9 +3,9 @@ title: Overview
 sidebar_position: 1
 ---
 
-# MistWarp Packager
+# Turbo-IDE Packager
 
-The MistWarp Packager turns a Scratch or MistWarp project into a standalone program: a single HTML file, a zip, or a native executable for Windows, macOS, or Linux. The output does not need the editor or an internet connection to run, and it bundles MistWarp's fast compiled runtime.
+The Turbo-IDE Packager turns a Scratch or Turbo-IDE project into a standalone program: a single HTML file, a zip, or a native executable for Windows, macOS, or Linux. The output does not need the editor or an internet connection to run, and it bundles Turbo-IDE's fast compiled runtime.
 
 Open it in the editor with **File, Export, Package project**. The packager is part of the GUI and uses the editor theme and window controls.
 
@@ -13,7 +13,7 @@ It fills the same role as HTMLifier or the forkphorus packager, with more output
 
 ## What you can do with it
 
-- **Share a project as one file.** Send someone an HTML file they can open in any browser, with no MistWarp branding around it.
+- **Share a project as one file.** Send someone an HTML file they can open in any browser, with no Turbo-IDE branding around it.
 - **Ship a desktop app.** Package to an Electron, NW.js, or WKWebView executable that runs like a native program.
 - **Embed a project you fully control.** [Embed the packaged file](/packager/embedding) instead of relying on a hosted embed.
 - **Run offline or on locked-down networks.** See the [offline packager](/packager/offline).

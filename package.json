@@ -1,5 +1,5 @@
 {
-  "name": "mistwarp-docs",
+  "name": "turbo-ide-docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,9 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "i18n:translate": "node scripts/translate-vi.mjs",
+    "i18n:editor:check": "node scripts/check-editor-links.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.1.0",

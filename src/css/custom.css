@@ -1,7 +1,7 @@
 /*
  * The Help window renders these docs in a same-origin iframe inside the editor and
  * copies the editor's live theme custom properties (--ui-*, --looks-*, --menu-bar-*,
- * --theme-font, ...) onto this document's root, so the docs match whatever MistWarp
+ * --theme-font, ...) onto this document's root, so the docs match whatever Turbo-IDE
  * theme the user has set. The var() fallbacks below are the standalone-site colors
  * (used when opened directly, outside the editor), split light/dark.
  */
@@ -67,8 +67,14 @@ html[data-theme='dark'] {
   --ifm-hr-background-color: var(--ui-tertiary, rgba(255, 255, 255, 0.14));
 }
 
-.navbar {
+/* The Help window supplies its own language and search, so the navbar only
+   exists on the standalone site, where it hosts the language dropdown. */
+html.mw-embedded .navbar {
   display: none;
+}
+
+html:not(.mw-embedded) {
+  --ifm-navbar-height: 3.75rem;
 }
 
 /* No navbar means no hamburger, so a floating button opens the sidebar as a
@@ -78,7 +84,7 @@ html[data-theme='dark'] {
 }
 
 @media (max-width: 996.98px) {
-  .mw-sidebar-toggle {
+  html.mw-embedded .mw-sidebar-toggle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,7 +186,7 @@ body {
   display: none;
 }
 
-/* The Algolia search modal follows the editor theme and MistWarp window styling. */
+/* The Algolia search modal follows the editor theme and Turbo-IDE window styling. */
 :root {
   --docsearch-primary-color: var(--looks-secondary, #855cd6);
   --docsearch-text-color: var(--ifm-font-color-base);

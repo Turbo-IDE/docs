@@ -3,7 +3,7 @@ title: Blocks overview
 sidebar_position: 1
 ---
 
-Blocks are the puzzle pieces you snap together to build a project. Each block is one instruction; a stack of blocks is a script. MistWarp uses the same block language as Scratch, so anything you know from Scratch works here, and it adds a handful of extra blocks on top (see [MistWarp extras](/blocks/mistwarp-extras)).
+Blocks are the puzzle pieces you snap together to build a project. Each block is one instruction; a stack of blocks is a script. Turbo-IDE uses the same block language as Scratch, so anything you know from Scratch works here, and it adds a handful of extra blocks on top (see [Turbo-IDE extras](/blocks/turbo-ide-extras)).
 
 ## Block shapes
 
@@ -32,13 +32,13 @@ The block palette runs down the left side of the [editor workspace](/editor/work
 
 Below those, each loaded [extension](/extensions/overview) (Pen, Music, and so on) adds its own category. See the [blocks palette](/editor/blocks-palette) page for how to search and drag blocks.
 
-## MistWarp and TurboWarp extra blocks
+## Turbo-IDE and TurboWarp extra blocks
 
-MistWarp inherits TurboWarp's additions and adds its own, so a number of blocks appear that stock Scratch does not have, spread across several categories: extra motion, control, operator, sensing, and data blocks, plus a `return` block for custom blocks. These are documented per category and collected on one page in [MistWarp extras](/blocks/mistwarp-extras).
+Turbo-IDE inherits TurboWarp's additions and adds its own, so a number of blocks appear that stock Scratch does not have, spread across several categories: extra motion, control, operator, sensing, and data blocks, plus a `return` block for custom blocks. These are documented per category and collected on one page in [Turbo-IDE extras](/blocks/turbo-ide-extras).
 
 ## See also
 
 - [The blocks palette](/editor/blocks-palette)
 - [The workspace](/editor/workspace)
 - [Extensions overview](/extensions/overview)
-- [MistWarp extras](/blocks/mistwarp-extras)
+- [Turbo-IDE extras](/blocks/turbo-ide-extras)

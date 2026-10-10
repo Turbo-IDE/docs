@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Building and Running
 
-This page walks through running the MistWarp editor and community site locally. Most development happens in scratch-gui, so that is where it starts. The engine packages come after.
+This page walks through running the Turbo-IDE editor and community site locally. Most development happens in scratch-gui, so that is where it starts. The engine packages come after.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ The first install and the first start need an internet connection.
 ## Run scratch-gui
 
 ```bash
-git clone https://github.com/MistWarp/scratch-gui
+git clone https://github.com/Turbo-IDE/scratch-gui
 cd scratch-gui
 pnpm install
 cp .env.example .env
@@ -32,7 +32,7 @@ pnpm start
 
 Without a `.env`, the editor is served at `/` and the community pages are left out. Set `PORT` to use another port.
 
-The dev server mirrors the production routes, so `/embed.html`, `/fullscreen`, `/addons`, `/credits`, and the community client routes work too. The community site talks to the live API at `https://api.mistwarp.org/v1`, so real projects and profiles load without running a backend.
+The dev server mirrors the production routes, so `/embed.html`, `/fullscreen`, `/addons`, `/credits`, and the community client routes work too. The community site talks to the live API at `https://api.turbo-ide.org/v1`, so real projects and profiles load without running a backend.
 
 On its first start, Vite writes generated sources into `src/generated/` (locales, scratch-blocks, and the micro:bit firmware URL) and downloads the micro:bit HEX file into `static/microbit/`. Later starts work offline. React components and CSS reload as you edit them.
 
@@ -71,13 +71,13 @@ For a quick check, lint just the files you changed with `npx eslint <files>`. Se
 
 ## Working on the engine packages
 
-scratch-gui depends on MistWarp forks of scratch-vm, scratch-blocks, scratch-render, scratch-paint, and scratch-audio. `package.json` pins each one to a commit, so scratch-gui builds on its own with no other checkouts.
+scratch-gui depends on Turbo-IDE forks of scratch-vm, scratch-blocks, scratch-render, scratch-paint, and scratch-audio. `package.json` pins each one to a commit, so scratch-gui builds on its own with no other checkouts.
 
 To change one of them, clone it next to scratch-gui and link it:
 
 ```bash
 cd ..
-git clone https://github.com/MistWarp/scratch-vm
+git clone https://github.com/Turbo-IDE/scratch-vm
 cd scratch-gui
 pnpm run link
 ```
@@ -109,17 +109,17 @@ node universal-python.js build.py
 
 Any new symbols you add must be exported in the `goog.global` block, or Closure will strip them from the build.
 
-### mistwarp-api
+### Turbo-IDE-api
 
 The community backend is an OSL service. With the OSL interpreter installed:
 
 ```bash
-cd mistwarp-api
+cd Turbo-IDE-api
 cp .env.example .env
 osl run main.osl   # listens on PORT, 5627 by default
 ```
 
-It stores data as flat JSON under `data/` and keeps project files in a local `data/blobs/` directory when no R2 bucket is configured. scratch-gui always talks to `https://api.mistwarp.org/v1` (`API_BASE` in `src/lib/community/api.js`), so change that constant locally to use your own backend.
+It stores data as flat JSON under `data/` and keeps project files in a local `data/blobs/` directory when no R2 bucket is configured. scratch-gui always talks to `https://api.turbo-ide.org/v1` (`API_BASE` in `src/lib/community/api.js`), so change that constant locally to use your own backend.
 
 ## See also
 

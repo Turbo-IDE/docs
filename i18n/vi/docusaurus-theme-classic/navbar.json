@@ -1,0 +1,54 @@
+{
+  "item.label.Use Turbo-IDE": {
+    "message": "Sử dụng Turbo-IDE",
+    "description": "Navbar item with label Use Turbo-IDE"
+  },
+  "item.label.Build & Extend": {
+    "message": "Xây dựng & Mở rộng",
+    "description": "Navbar item with label Build & Extend"
+  },
+  "item.label.Contribute": {
+    "message": "Đóng góp",
+    "description": "Navbar item with label Contribute"
+  },
+  "item.label.Getting Started": {
+    "message": "Bắt đầu",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Using the Editor": {
+    "message": "Sử dụng trình biên tập",
+    "description": "Navbar item with label Using the Editor"
+  },
+  "item.label.Blocks Reference": {
+    "message": "Tra cứu khối lệnh",
+    "description": "Navbar item with label Blocks Reference"
+  },
+  "item.label.Extensions": {
+    "message": "Tiện ích mở rộng",
+    "description": "Navbar item with label Extensions"
+  },
+  "item.label.Advanced Features": {
+    "message": "Tính năng nâng cao",
+    "description": "Navbar item with label Advanced Features"
+  },
+  "item.label.Building Extensions": {
+    "message": "Xây dựng tiện ích mở rộng",
+    "description": "Navbar item with label Building Extensions"
+  },
+  "item.label.Packager": {
+    "message": "Trình đóng gói",
+    "description": "Navbar item with label Packager"
+  },
+  "item.label.API Reference": {
+    "message": "Tra cứu API",
+    "description": "Navbar item with label API Reference"
+  },
+  "item.label.Contributing": {
+    "message": "Đóng góp",
+    "description": "Navbar item with label Contributing"
+  },
+  "item.label.Architecture & Internals": {
+    "message": "Kiến trúc & Nội bộ",
+    "description": "Navbar item with label Architecture & Internals"
+  }
+}

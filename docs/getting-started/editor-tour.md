@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Editor tour
 
-This is a map of the MistWarp editor. Each region links to its full reference page. For an overview of how the regions fit together, see [Editor interface](/editor/interface).
+This is a map of the Turbo-IDE editor. Each region links to its full reference page. For an overview of how the regions fit together, see [Editor interface](/editor/interface).
 
 The editor is laid out in three columns under a top bar:
 
@@ -38,7 +38,7 @@ On the Code tab, the left column lists every block, grouped by category (Motion,
 
 ## Workspace
 
-The center area is where you assemble scripts by snapping blocks together. It supports right-click menus, comments, and cleanup, plus MistWarp's own tools for finding and organizing code.
+The center area is where you assemble scripts by snapping blocks together. It supports right-click menus, comments, and cleanup, plus Turbo-IDE's own tools for finding and organizing code.
 
 - The workspace itself: [Workspace](/editor/workspace)
 - Jump to any block or variable: [Find bar](/editor/find-bar)
@@ -61,14 +61,14 @@ Under the stage on the right is the list of sprites, with the sprite info contro
 
 ## Variables and data
 
-Variables and lists are created from the **Variables** category in the palette and shown as monitors on the stage. MistWarp adds a manager for working with many of them at once.
+Variables and lists are created from the **Variables** category in the palette and shown as monitors on the stage. Turbo-IDE adds a manager for working with many of them at once.
 
 - Working with variables and lists: [Variables](/editor/variables)
 - Bulk editing and inspection: [Variable manager](/editor/variable-manager)
 
-## MistWarp tools
+## Turbo-IDE tools
 
-These are features MistWarp adds beyond the standard editor, reached from the menus and settings:
+These are features Turbo-IDE adds beyond the standard editor, reached from the menus and settings:
 
 - Optional editor and player features: [Addons](/editor/addons)
 - Color schemes and dark mode: [Themes](/editor/themes)

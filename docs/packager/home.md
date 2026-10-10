@@ -1,10 +1,10 @@
 ---
-title: MistWarp Packager
+title: Turbo-IDE Packager
 slug: /packager/
 hide_table_of_contents: true
 ---
 
-# MistWarp Packager
+# Turbo-IDE Packager
 
 This page has moved. See the [Packager overview](/packager/overview).
 

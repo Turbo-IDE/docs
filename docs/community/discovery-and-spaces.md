@@ -14,7 +14,7 @@ Category buttons apply common tags. Select **Load more** to continue through the
 
 ## Spaces
 
-A space collects projects around a group or purpose. MistWarp has three space types:
+A space collects projects around a group or purpose. Turbo-IDE has three space types:
 
 - **Studios** are shared project galleries.
 - **Challenges** collect entries for a prompt or event.
@@ -28,4 +28,4 @@ Following a space keeps it in your personal space list.
 
 The Starter kits page opens small working projects in the editor. Current kits cover platformer controls, dialogue, online scores, mobile controls, and extension development.
 
-Change the example blocks first. The rest of the editor works like any other MistWarp project, so you can save the result to your account when it becomes your own.
+Change the example blocks first. The rest of the editor works like any other Turbo-IDE project, so you can save the result to your account when it becomes your own.

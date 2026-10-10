@@ -30,7 +30,7 @@ As a user, prefer sandboxed unless the extension specifically needs unsandboxed 
 Loading a custom extension runs someone else's code. Only load extensions from sources you trust.
 :::
 
-Before an extension from a URL or file runs, MistWarp shows a prompt telling you where it came from and letting you cancel. Unsandboxed extensions carry more risk because they are not isolated. If you did not intend to load an extension, or you do not recognise the source, cancel. A malicious extension can read your project, make network requests, and interfere with the page.
+Before an extension from a URL or file runs, Turbo-IDE shows a prompt telling you where it came from and letting you cancel. Unsandboxed extensions carry more risk because they are not isolated. If you did not intend to load an extension, or you do not recognise the source, cancel. A malicious extension can read your project, make network requests, and interfere with the page.
 
 ## After loading
 

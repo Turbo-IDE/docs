@@ -5,15 +5,15 @@ sidebar_position: 6
 
 # Migrating from TurboWarp
 
-MistWarp is built on TurboWarp, so if you already use TurboWarp the editor will look and behave almost identically. The compiler, arbitrary frame rate, custom stage size, addons, themes, restore points, packager, and advanced settings all carry over and work the way you expect. Projects are the same `.sb3` format, and TurboWarp projects open in MistWarp directly through **File then Load from your computer**.
+Turbo-IDE is built on TurboWarp, so if you already use TurboWarp the editor will look and behave almost identically. The compiler, arbitrary frame rate, custom stage size, addons, themes, restore points, packager, and advanced settings all carry over and work the way you expect. Projects are the same `.sb3` format, and TurboWarp projects open in Turbo-IDE directly through **File then Load from your computer**.
 
-This page focuses on what MistWarp adds on top of TurboWarp.
+This page focuses on what Turbo-IDE adds on top of TurboWarp.
 
 ## Community platform and Rotur accounts
 
-The biggest addition is a full community platform. The MistWarp editor and community site ship from one build, so publishing, profiles, and browsing projects are built into the same application.
+The biggest addition is a full community platform. The Turbo-IDE editor and community site ship from one build, so publishing, profiles, and browsing projects are built into the same application.
 
-- You sign in with a **Rotur account**. From the menu bar you can save a project straight to your account with **File then Save to MistWarp**, then open its project page.
+- You sign in with a **Rotur account**. From the menu bar you can save a project straight to your account with **File then Save to Turbo-IDE**, then open its project page.
 - Signed in, you get a profile, notifications, and social features (following, comments, and posts).
 - Your settings and themes sync across devices while you are signed in.
 
@@ -21,23 +21,23 @@ You do not need an account to build, run, package, or save projects locally, exa
 
 ## Extra blocks and extensions
 
-MistWarp includes additional blocks and extensions beyond TurboWarp's set. Browse them in [Extensions overview](/extensions/overview) and [MistWarp extras](/blocks/mistwarp-extras).
+Turbo-IDE includes additional blocks and extensions beyond TurboWarp's set. Browse them in [Extensions overview](/extensions/overview) and [Turbo-IDE extras](/blocks/turbo-ide-extras).
 
 ## Version history
 
-MistWarp creates version history when you save a project to your account. Later saves ask for a short description, and the project page lets you browse or restore old versions. Advanced users can add branches and repository connections under **Tools, Version history**. See [Version history](/editor/git).
+Turbo-IDE creates version history when you save a project to your account. Later saves ask for a short description, and the project page lets you browse or restore old versions. Advanced users can add branches and repository connections under **Tools, Version history**. See [Version history](/editor/git).
 
 ## Live collaboration
 
-MistWarp adds real-time collaboration: multiple people can edit the same project together and see each other's presence in the editor. See [Collaboration](/editor/collaboration).
+Turbo-IDE adds real-time collaboration: multiple people can edit the same project together and see each other's presence in the editor. See [Collaboration](/editor/collaboration).
 
 ## Debugger
 
-MistWarp includes a debugger for inspecting a running project, stepping through execution, and watching state, which goes beyond TurboWarp's standard tooling. See [Debugger](/editor/debugger).
+Turbo-IDE includes a debugger for inspecting a running project, stepping through execution, and watching state, which goes beyond TurboWarp's standard tooling. See [Debugger](/editor/debugger).
 
 ## Themes and addons
 
-TurboWarp's addon and theme systems are present and extended. MistWarp ships its own themes (including custom color schemes) and its own selection of addons. See [Themes](/editor/themes) and [Addons](/editor/addons).
+TurboWarp's addon and theme systems are present and extended. Turbo-IDE ships its own themes (including custom color schemes) and its own selection of addons. See [Themes](/editor/themes) and [Addons](/editor/addons).
 
 ## What is the same
 

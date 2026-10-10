@@ -1,18 +1,33 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'MistWarp Documentation',
-  tagline: 'A comprehensive guide to MistWarp - the advanced Scratch modification platform',
-  url: 'https://mistwarp.org',
+  title: 'Turbo-IDE Documentation',
+  tagline: 'A comprehensive guide to Turbo-IDE - the advanced Scratch modification platform',
+  url: 'https://turbo-ide.org',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
-  organizationName: 'MistWarp',
+  organizationName: 'Turbo-IDE',
   projectName: 'docs',
   trailingSlash: true,
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'vi'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      vi: {
+        label: 'Tiếng Việt',
+        direction: 'ltr',
+      },
+    },
+  },
   clientModules: [
     require.resolve('./src/clientModules/spotlight-key.js'),
     require.resolve('./src/clientModules/sidebar-toggle.js'),
+    require.resolve('./src/clientModules/editor-locale.js'),
   ],
   themeConfig: {
     navbar: {
@@ -20,7 +35,7 @@ module.exports = {
       items: [
         {
           type: 'dropdown',
-          label: 'Use MistWarp',
+          label: 'Use Turbo-IDE',
           position: 'left',
           items: [
             {to: '/getting-started/introduction', label: 'Getting Started'},
@@ -48,14 +63,18 @@ module.exports = {
             {to: '/contributing/overview', label: 'Contributing'},
             {to: '/internals/overview', label: 'Architecture & Internals'}
           ]
-        }
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     algolia: {
       // This is all supposed to be public
       appId: 'HORQ9E5CCA',
       apiKey: 'c3873ce4208edb896a31bb3e7c2cbdad',
-      indexName: 'mistwarp',
+      indexName: 'turbo-ide',
       translations: {
         button: {
           buttonText: 'Search docs',
@@ -80,7 +99,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/MistWarp/docs/edit/master/',
+          editUrl: 'https://github.com/Turbo-IDE/docs/edit/master/',
           breadcrumbs: true,
         },
         theme: {

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 The menu bar runs across the top of the editor. It holds the dropdown menus (File, Edit, Project, Bookmarks), the Settings button, the project title, and, on the right, your save status and account. This page lists every menu and item.
 
-The far-left **MistWarp** logo is a link to the home page. On narrow windows the menus collapse behind a **More** (☰) button; the items are identical.
+The far-left **Turbo-IDE** logo is a link to the home page. On narrow windows the menus collapse behind a **More** (☰) button; the items are identical.
 
 Keyboard shortcuts shown below use `Ctrl` on Windows/Linux and `⌘` on macOS. The full list lives in [keyboard shortcuts](/editor/shortcuts).
 
@@ -13,11 +13,11 @@ Keyboard shortcuts shown below use `Ctrl` on Windows/Linux and `⌘` on macOS. T
 
 - **New** creates a fresh project. If your current project has unsaved changes you are warned first.
 - **New window** (desktop app only) opens a second editor window.
-- **Save now** (`Ctrl+S`) saves to wherever the project currently lives. When you are signed in and the project belongs to you, this uploads to MistWarp. See [project management](/editor/project-management).
+- **Save now** (`Ctrl+S`) saves to wherever the project currently lives. When you are signed in and the project belongs to you, this uploads to Turbo-IDE. See [project management](/editor/project-management).
 - **Save as a copy** (`Ctrl+Shift+S`) saves a new, independent copy.
 - **Remix** starts a new project based on the current one.
-- **Save to MistWarp** / **Remix to MistWarp** uploads the project to your account. It is disabled with a **No new changes** tooltip when the saved project is already current. Uploading never publishes it on its own; sharing happens separately on the site.
-- **See project page** opens this project's page on the community site (shown once the project exists on MistWarp).
+- **Save to Turbo-IDE** / **Remix to Turbo-IDE** uploads the project to your account. It is disabled with a **No new changes** tooltip when the saved project is already current. Uploading never publishes it on its own; sharing happens separately on the site.
+- **See project page** opens this project's page on the community site (shown once the project exists on Turbo-IDE).
 - **Load from your computer** (`Ctrl+O`) opens an `.sb3` file from disk.
 - **Save to (filename)** and **Save as...** save an `.sb3` to your computer. On browsers that support the File System Access API you can save back to the same file; otherwise you get a normal download.
 - **Export** contains Scratch `.sb3` export and **Package project** (`Ctrl+P`).
@@ -65,8 +65,8 @@ The account area on the right of the menu bar shows:
 
 - **Save status**, which reflects whether the project has unsaved changes.
 - A **live collaboration** presence indicator when a session is active.
-- Navigation to the rest of the MistWarp site.
-- Your **Rotur account**, or a sign-in prompt. Signing in enables Save to MistWarp, sharing, and cloud sync of your settings.
+- Navigation to the rest of the Turbo-IDE site.
+- Your **Rotur account**, or a sign-in prompt. Signing in enables Save to Turbo-IDE, sharing, and cloud sync of your settings.
 
 A **project title** field sits in the middle when you own the project. On project pages you may also see a view counter, a **Share** button, a **Remix** button, and a **See community** button, depending on the project and whether you are signed in. A **Feedback** link is always available.
 

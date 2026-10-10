@@ -1,0 +1,58 @@
+{
+  "version.label": {
+    "message": "Hiện tại",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Bắt đầu",
+    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Using the Editor": {
+    "message": "Sử dụng trình biên tập",
+    "description": "The label for category Using the Editor in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Blocks Reference": {
+    "message": "Tra cứu khối lệnh",
+    "description": "The label for category Blocks Reference in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "Cộng đồng",
+    "description": "The label for category Community in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Extensions": {
+    "message": "Tiện ích mở rộng",
+    "description": "The label for category Extensions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Features": {
+    "message": "Tính năng nâng cao",
+    "description": "The label for category Advanced Features in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Packager": {
+    "message": "Trình đóng gói",
+    "description": "The label for category Packager in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Building Extensions": {
+    "message": "Xây dựng tiện ích mở rộng",
+    "description": "The label for category Building Extensions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.APIs": {
+    "message": "Các API",
+    "description": "The label for category APIs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Compiled Extensions": {
+    "message": "Tiện ích mở rộng biên dịch",
+    "description": "The label for category Compiled Extensions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing": {
+    "message": "Đóng góp",
+    "description": "The label for category Contributing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Architecture & Internals": {
+    "message": "Kiến trúc & Nội bộ",
+    "description": "The label for category Architecture & Internals in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.API Reference": {
+    "message": "Tra cứu API",
+    "description": "The label for category API Reference in sidebar tutorialSidebar"
+  }
+}

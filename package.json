@@ -17,7 +17,7 @@
     "i18n:editor:check": "node scripts/check-editor-links.mjs"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.0",
+    "@docusaurus/core": "^3.10.2",
     "@docusaurus/preset-classic": "^3.1.0",
     "@mdx-js/react": "^3.0.0",
     "prism-react-renderer": "^2.1.0",

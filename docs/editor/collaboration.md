@@ -31,7 +31,7 @@ The first time, choose **Show my friends**. Rotur asks you once to let Turbo-IDE
 
 Invites expire after two minutes, and ending a session cancels any invites that have not been answered. Only the host can invite people into a session.
 
-Turn off **Let friends see when I am here and invite me** to stop appearing online to friends. You can still see them and invite them, but they cannot invite you. The same switch is in the Presence section of [Settings](https://turbo-ide.org/settings?section=presence) on the Turbo-IDE website, and it syncs between your devices.
+Turn off **Let friends see when I am here and invite me** to stop appearing online to friends. You can still see them and invite them, but they cannot invite you. The same switch is in the Presence section of [Settings](https://turboshare.org.uk/settings?section=presence) on the Turbo-IDE website, and it syncs between your devices.
 
 ## During a session
 

@@ -9,7 +9,7 @@ Turbo-IDE là phần mềm miễn phí và mã nguồn mở. Không có gì ph�
 
 ## Dùng trên web
 
-Mở [turbo-ide.org](https://turbo-ide.org/) trong bất kỳ trình duyệt hiện đại nào. Trình biên tập sẽ tải và bạn có thể bắt đầu làm dự án ngay. Không cần tài khoản để tạo mới, chỉnh sửa, lưu về máy, hoặc mở tệp `.sb3`.
+Mở [editor.turboshare.org.uk](https://editor.turboshare.org.uk/) trong bất kỳ trình duyệt hiện đại nào. Trình biên tập sẽ tải và bạn có thể bắt đầu làm dự án ngay. Không cần tài khoản để tạo mới, chỉnh sửa, lưu về máy, hoặc mở tệp `.sb3`.
 
 Hãy đăng nhập bằng **tài khoản Rotur** khi bạn muốn:
 

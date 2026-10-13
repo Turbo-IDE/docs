@@ -9,7 +9,7 @@ Bạn có thể nhúng một dự án Turbo-IDE vào bất kỳ trang web nào b
 
 ```html
 <iframe
-  src="https://turbo-ide.org/414716080/embed"
+  src="https://turboshare.org.uk/414716080/embed"
   width="482"
   height="412"
   frameborder="0"
@@ -25,10 +25,10 @@ Hãy thay `414716080` bằng ID dự án của bạn. Bạn có thể chọn chi
 ID trong URL có thể thuộc một trong hai loại dự án:
 
 - **ID dự án Scratch** (toàn là chữ số, ví dụ `414716080`) nhúng một dự án được chia sẻ trên Scratch.
-- **ID dự án cộng đồng Turbo-IDE** (ví dụ `p1784079025833421000VYnQRa`) nhúng một dự án được chia sẻ trên trang cộng đồng Turbo-IDE. Đây là ID có trong URL trang dự án, `https://turbo-ide.org/project/p1784079025833421000VYnQRa`.
+- **ID dự án cộng đồng Turbo-IDE** (ví dụ `p1784079025833421000VYnQRa`) nhúng một dự án được chia sẻ trên trang cộng đồng Turbo-IDE. Đây là ID có trong URL trang dự án, `https://turboshare.org.uk/project/p1784079025833421000VYnQRa`.
 
 ```html
-<iframe src="https://turbo-ide.org/p1784079025833421000VYnQRa/embed"></iframe>
+<iframe src="https://turboshare.org.uk/p1784079025833421000VYnQRa/embed"></iframe>
 ```
 
 Cả hai đều dùng cùng một đường dẫn `/embed`, cùng các tham số và cùng API postMessage được mô tả bên dưới.
@@ -49,7 +49,7 @@ Mọi [tham số URL tiêu chuẩn](/advanced/url-parameters) đều hoạt đ�
 | `addons` | Bật các addon cụ thể (xem bên dưới). |
 
 ```html
-<iframe src="https://turbo-ide.org/15832807/embed?autoplay&settings-button"></iframe>
+<iframe src="https://turboshare.org.uk/15832807/embed?autoplay&settings-button"></iframe>
 ```
 
 Các khối âm thanh có thể không phát cho tới khi người dùng tương tác với dự án (một cú bấm chuột chẳng hạn). Đây là giới hạn của trình duyệt, không phải thứ Turbo-IDE có thể vượt qua, nên autoplay không thể buộc âm thanh phát ngay khi tải.
@@ -59,7 +59,7 @@ Các khối âm thanh có thể không phát cho tới khi người dùng tươn
 Bản nhúng khởi động với tất cả addon đều tắt. Tham số `addons` nhận một danh sách ID addon phân cách bằng dấy phẩy:
 
 ```
-https://turbo-ide.org/15832807/embed?addons=pause,gamepad,mute-project
+https://turboshare.org.uk/15832807/embed?addons=pause,gamepad,mute-project
 ```
 
 Các addon hữu ích cho bản nhúng gồm:
@@ -80,7 +80,7 @@ Các addon chỉ ảnh hưởng đến trình biên tập thì không có tác d
 ```html
 <div style="position: relative; padding-bottom: 75%; height: 0;">
   <iframe
-    src="https://turbo-ide.org/123456789/embed"
+    src="https://turboshare.org.uk/123456789/embed"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allowfullscreen
@@ -136,7 +136,7 @@ Nếu bạn xây dựng liên kết nhúng từ dữ liệu do người dùng cu
 
 ```html
 <iframe
-  src="https://turbo-ide.org/123456789/embed"
+  src="https://turboshare.org.uk/123456789/embed"
   sandbox="allow-scripts allow-same-origin allow-fullscreen"
 ></iframe>
 ```

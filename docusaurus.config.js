@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Turbo-IDE Documentation',
   tagline: 'A comprehensive guide to Turbo-IDE - the advanced Scratch modification platform',
-  url: 'https://turbo-ide.org',
+  url: 'https://turboshare.org.uk',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

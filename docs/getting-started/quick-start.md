@@ -9,7 +9,7 @@ This page builds a small working project from an empty editor. It takes a few mi
 
 ## Open the editor
 
-Go to [turbo-ide.org](https://turbo-ide.org/). A new project opens with the default sprite, **Misty**, already on the stage. You do not need an account for anything on this page.
+Go to [editor.turboshare.org.uk](https://editor.turboshare.org.uk/). A new project opens with the default sprite, **Misty**, already on the stage. You do not need an account for anything on this page.
 
 ## Add code
 

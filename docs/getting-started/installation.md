@@ -9,7 +9,7 @@ Turbo-IDE is free and open source. There is nothing to buy and, for the web vers
 
 ## Use it on the web
 
-Open [turbo-ide.org](https://turbo-ide.org/) in any modern browser. The editor loads and you can start building right away. No account is required to create, edit, save to your computer, or open `.sb3` files.
+Open [editor.turboshare.org.uk](https://editor.turboshare.org.uk/) in any modern browser. The editor loads and you can start building right away. No account is required to create, edit, save to your computer, or open `.sb3` files.
 
 Sign in with a **Rotur account** when you want to:
 

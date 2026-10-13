@@ -10,7 +10,7 @@ Bạn có thể điều khiển cách Turbo-IDE nạp và chạy một dự án 
 Các tham số dùng cú pháp chuỗi truy vấn tiêu chuẩn: một dấu `?` sau URL, rồi các cặp `tên=giá_trị` nối với nhau bằng `&`. Các thăm số chỉ là công tắc thì không cần giá trị:
 
 ```
-https://turbo-ide.org/123456789?turbo&fps=60&username=alice
+https://editor.turboshare.org.uk/123456789?turbo&fps=60&username=alice
 ```
 
 :::note
@@ -21,14 +21,14 @@ Turbo-IDE đã tự lưu các cài đặt thông dụng (chế độ turbo, FPS,
 
 | Tham số | Giá trị | Tác dụng |
 |-----------|-------|--------------|
-| (đường dẫn) | ID dự án | `turbo-ide.org/123456789` nạp dự án đó |
+| (đường dẫn) | ID dự án | `editor.turboshare.org.uk/123456789` nạp dự án đó |
 | `project_url` | URL trực tiếp | Nạp một tệp `.sb3` (hoặc `project.json`) từ bất kỳ URL nào hỗ trợ CORS. Đừng dùng kết hợp với ID dự án. |
 | `clone` | URL kho git | Nhân bản một dự án từ một kho git của Turbo-IDE (xem [Tích hợp Git](/editor/git)). |
 
 `project_url` cần một bản tải trực tiếp có hỗ trợ [CORS](/advanced/cors) (`Access-Control-Allow-Origin: *`). Nếu bạn bỏ qua giao thức thì `https://` được mặc định áp dụng; các URL `http://` thường sẽ không hoạt động. [GitHub Pages](https://pages.github.com/) hoạt động tốt cho mục đích này.
 
 ```
-https://turbo-ide.org/?project_url=https://example.com/project.sb3
+https://editor.turboshare.org.uk/?project_url=https://example.com/project.sb3
 ```
 
 ## Hiệu năng và runtime
@@ -73,7 +73,7 @@ https://turbo-ide.org/?project_url=https://example.com/project.sb3
 | `extension` | URL | Nạp một tiện ích mở rộng tùy chỉnh. Có thể lặp lại để nạp nhiều tiện ích. |
 
 ```
-https://turbo-ide.org/?extension=https://example.com/a.js&extension=https://example.com/b.js
+https://editor.turboshare.org.uk/?extension=https://example.com/a.js&extension=https://example.com/b.js
 ```
 
 Xem [Xây dựng tiện ích mở rộng](/building-extensions/introduction) để biết chúng hoạt động thế nào.

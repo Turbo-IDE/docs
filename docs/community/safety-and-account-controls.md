@@ -18,7 +18,7 @@ You can review and remove blocks or mutes under **Settings**, then **Safety**.
 
 Use the report button on a project, profile, or comment when content breaks the community terms. Reports go to Turbo-IDE moderators.
 
-Use the [support page](https://turbo-ide.org/support) for private account help, safety concerns, legal requests, and moderation appeals. Product bugs belong on the [Roadmap](https://turbo-ide.org/roadmap), where other users can confirm them and follow their status.
+Use the [support page](https://turboshare.org.uk/support) for private account help, safety concerns, legal requests, and moderation appeals. Product bugs belong on the [Roadmap](https://turboshare.org.uk/roadmap), where other users can confirm them and follow their status.
 
 ## Export or delete Turbo-IDE data
 

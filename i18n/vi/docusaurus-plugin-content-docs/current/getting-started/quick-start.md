@@ -9,7 +9,7 @@ Trang này xây dựng một dự án nhỏ có thể chạy được từ trìn
 
 ## Mở trình biên tập
 
-Truy cập [turbo-ide.org](https://turbo-ide.org/). Một dự án mới sẽ mở với sprite mặc định **Misty** đã nằm sẵn trên sân khấu. Bạn không cần tài khoản cho bất cứ thao tác nào trong trang này.
+Truy cập [editor.turboshare.org.uk](https://editor.turboshare.org.uk/). Một dự án mới sẽ mở với sprite mặc định **Misty** đã nằm sẵn trên sân khấu. Bạn không cần tài khoản cho bất cứ thao tác nào trong trang này.
 
 ## Thêm mã
 

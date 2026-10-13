@@ -5,13 +5,13 @@ sidebar_position: 6
 
 # Deploying
 
-Turbo-IDE's editor and community site are a static site plus a few Cloudflare Pages Functions. This page covers how turbo-ide.org is deployed and how to host a build yourself.
+Turbo-IDE's editor and community site are a static site plus a few Cloudflare Pages Functions. This page covers how turboshare.org.uk is deployed and how to host a build yourself.
 
 You do not need this to contribute changes.
 
-## How turbo-ide.org deploys
+## How turboshare.org.uk deploys
 
-turbo-ide.org is a [Cloudflare Pages](https://developers.cloudflare.com/pages/) project connected to the Turbo-IDE/scratch-gui repository. There is no deploy script and no `gh-pages` branch.
+turboshare.org.uk is a [Cloudflare Pages](https://developers.cloudflare.com/pages/) project connected to the Turbo-IDE/scratch-gui repository. There is no deploy script and no `gh-pages` branch.
 
 - Every push to `develop` builds and deploys production.
 - Every other branch, including pull request branches, gets a preview deployment at `https://<branch>.scratch-gui.pages.dev`. The Cloudflare Pages check on the pull request links to it.
@@ -23,7 +23,7 @@ The build runs `pnpm run build` with `MW_COMMUNITY=true` and publishes `build/`.
 
 Merging into a fork or into the docs repo does not redeploy by itself. The change goes live with the next scratch-gui deploy, or when a Cloudflare build is retried.
 
-Each build writes `version.json` with the scratch-gui commit, the fork commits it used, and the build time. [turbo-ide.org/version.json](https://turbo-ide.org/version.json) shows what is live.
+Each build writes `version.json` with the scratch-gui commit, the fork commits it used, and the build time. [turboshare.org.uk/version.json](https://turboshare.org.uk/version.json) shows what is live.
 
 ## Build output
 
@@ -54,7 +54,7 @@ Without these rewrites, client routes return 404 when the page is reloaded. The 
 
 ## The community backend
 
-The static build is only the frontend. The community backend, Turbo-IDE-api, is a separate OSL service that is deployed on its own, and the frontend always talks to `https://api.turbo-ide.org/v1`. You do not need it to host just the editor. See [Project Structure](/contributing/project-structure) for what it is.
+The static build is only the frontend. The community backend, Turbo-IDE-api, is a separate OSL service that is deployed on its own, and the frontend always talks to `https://api.turboshare.org.uk/v1`. You do not need it to host just the editor. See [Project Structure](/contributing/project-structure) for what it is.
 
 ## See also
 

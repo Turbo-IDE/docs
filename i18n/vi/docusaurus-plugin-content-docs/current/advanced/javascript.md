@@ -35,7 +35,7 @@ Nếu bạn cần nhiều hơn một biểu thức nhúng (để gọi một API
 Đây là một nhiệm vụ lập trình thật sự, không phải một khối lệnh. Hướng dẫn đầy đủ nằm ở [Xây dựng tiện ích mở rộng](/building-extensions/introduction), và chi tiết về môi trường unsandboxed nằm ở [Tiện ích unsandboxed](/building-extensions/unsandboxed). Bạn có thể nạp một tiện ích từ URL bằng [tham số URL `extension`](/advanced/url-parameters#extension):
 
 ```
-https://turbo-ide.org/?extension=https://example.com/extension.js
+https://editor.turboshare.org.uk/?extension=https://example.com/extension.js
 ```
 
 :::warning

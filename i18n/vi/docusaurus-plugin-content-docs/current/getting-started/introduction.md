@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Turbo-IDE là một bản sửa đổi của Scratch, được xây dựng dựa trên TurboWarp, do Mistium tạo ra. Nếu bạn đã dùng Scratch, Turbo-IDE sẽ rất quen thuộc: cùng những khối lệnh, sprite, trang phục và sân khấu đó. Trên nền tảng ấy, Turbo-IDE bổ sung hiệu năng, khả năng tùy biến, công cụ lập trình, và một nền tảng cộng đồng.
 
-Trình biên tập và trang cộng đồng là một ứng dụng duy nhất. Bạn có thể mở trình biên tập tại [turbo-ide.org](https://turbo-ide.org/) và bắt đầu làm dự án ngay lập tức, không cần tài khoản và không cần cài đặt gì cả.
+Trình biên tập và trang cộng đồng là một ứng dụng duy nhất. Bạn có thể mở trình biên tập tại [editor.turboshare.org.uk](https://editor.turboshare.org.uk/) và bắt đầu làm dự án ngay lập tức, không cần tài khoản và không cần cài đặt gì cả.
 
 ## Turbo-IDE bổ sung những gì
 

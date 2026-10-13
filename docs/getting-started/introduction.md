@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Turbo-IDE is a modification of Scratch, built on top of TurboWarp, made by Mistium. If you have used Scratch, Turbo-IDE will feel familiar: the same blocks, sprites, costumes, and stage. On top of that base it adds performance, customization, developer tooling, and a community platform.
 
-The editor and the community site are one application. You can open the editor at [turbo-ide.org](https://turbo-ide.org/) and start building immediately, with no account and nothing to install.
+The editor and the community site are one application. You can open the editor at [editor.turboshare.org.uk](https://editor.turboshare.org.uk/) and start building immediately, with no account and nothing to install.
 
 ## What Turbo-IDE adds
 

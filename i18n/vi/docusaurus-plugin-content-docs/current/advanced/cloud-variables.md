@@ -30,7 +30,7 @@ Biến đám mây cần tất cả các điều sau đây đồng thời đúng:
 Bạn có thể trỏ một dự án tới một máy chủ đám mây khác bằng [tham số URL `cloud_host`](/advanced/url-parameters#accounts-and-cloud):
 
 ```
-https://turbo-ide.org/12785898?cloud_host=wss://clouddata.turbowarp.org
+https://editor.turboshare.org.uk/12785898?cloud_host=wss://clouddata.turbowarp.org
 ```
 
 Hãy dùng URL `wss://` (bảo mật). Các máy chủ `ws://` không bảo mật thường thất bại vì Turbo-IDE được phục vụ qua HTTPS. Bạn không thể kết nối tới máy chủ đám mây của chính Scratch theo cách này, vì điều đó đòi hỏi thông tin đăng nhập tài khoản Scratch mà Turbo-IDE không có.

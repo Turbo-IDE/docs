@@ -6,9 +6,9 @@ hide_table_of_contents: true
 
 # Tài liệu Turbo-IDE
 
-[Turbo-IDE](https://turbo-ide.org/) là một bản sửa đổi của Scratch, được xây dựng dựa trên TurboWarp, bởi Mistium. Nó giữ nguyên trình biên tập Scratch mà bạn đã quen thuộc và bổ sung trình biên dịch khối lệnh thành JavaScript, một bộ sưu tập lớn các addon và giao diện, trình đóng gói dự án, trình gỡ lỗi, kiểm soát phiên bản bằng git, cộng tác trực tuyến, và một nền tảng cộng đồng đầy đủ với tài khoản người dùng.
+[Turbo-IDE](https://turboshare.org.uk/) là một bản sửa đổi của Scratch, được xây dựng dựa trên TurboWarp, bởi Mistium. Nó giữ nguyên trình biên tập Scratch mà bạn đã quen thuộc và bổ sung trình biên dịch khối lệnh thành JavaScript, một bộ sưu tập lớn các addon và giao diện, trình đóng gói dự án, trình gỡ lỗi, kiểm soát phiên bản bằng git, cộng tác trực tuyến, và một nền tảng cộng đồng đầy đủ với tài khoản người dùng.
 
-Trình biên tập và trang cộng đồng được phát hành từ cùng một bản build. Bạn có thể dùng Turbo-IDE hoàn toàn trên trình duyệt tại [turbo-ide.org](https://turbo-ide.org/), không cần tài khoản và không cần cài đặt. Hãy đăng nhập bằng tài khoản Rotur khi bạn muốn xuất bản dự án, theo dõi người khác, và đồng bộ cài đặt giữa các thiết bị.
+Trình biên tập và trang cộng đồng được phát hành từ cùng một bản build. Bạn có thể dùng Turbo-IDE hoàn toàn trên trình duyệt tại [editor.turboshare.org.uk](https://editor.turboshare.org.uk/), không cần tài khoản và không cần cài đặt. Hãy đăng nhập bằng tài khoản Rotur khi bạn muốn xuất bản dự án, theo dõi người khác, và đồng bộ cài đặt giữa các thiết bị.
 
 ## Bắt đầu tại đây
 
@@ -33,7 +33,7 @@ Trình biên tập và trang cộng đồng được phát hành từ cùng mộ
 
 ## Các trang liên quan
 
-- [Trình biên tập Turbo-IDE](https://turbo-ide.org/)
+- [Trình biên tập Turbo-IDE](https://editor.turboshare.org.uk/)
 - [Trình đóng gói Turbo-IDE](https://packager.warp.mistium.com/)
 - [Turbo-IDE trên GitHub](https://github.com/Turbo-IDE)
 

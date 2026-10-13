@@ -32,7 +32,7 @@ pnpm start
 
 Without a `.env`, the editor is served at `/` and the community pages are left out. Set `PORT` to use another port.
 
-The dev server mirrors the production routes, so `/embed.html`, `/fullscreen`, `/addons`, `/credits`, and the community client routes work too. The community site talks to the live API at `https://api.turbo-ide.org/v1`, so real projects and profiles load without running a backend.
+The dev server mirrors the production routes, so `/embed.html`, `/fullscreen`, `/addons`, `/credits`, and the community client routes work too. The community site talks to the live API at `https://api.turboshare.org.uk/v1`, so real projects and profiles load without running a backend.
 
 On its first start, Vite writes generated sources into `src/generated/` (locales, scratch-blocks, and the micro:bit firmware URL) and downloads the micro:bit HEX file into `static/microbit/`. Later starts work offline. React components and CSS reload as you edit them.
 
@@ -119,7 +119,7 @@ cp .env.example .env
 osl run main.osl   # listens on PORT, 5627 by default
 ```
 
-It stores data as flat JSON under `data/` and keeps project files in a local `data/blobs/` directory when no R2 bucket is configured. scratch-gui always talks to `https://api.turbo-ide.org/v1` (`API_BASE` in `src/lib/community/api.js`), so change that constant locally to use your own backend.
+It stores data as flat JSON under `data/` and keeps project files in a local `data/blobs/` directory when no R2 bucket is configured. scratch-gui always talks to `https://api.turboshare.org.uk/v1` (`API_BASE` in `src/lib/community/api.js`), so change that constant locally to use your own backend.
 
 ## See also
 

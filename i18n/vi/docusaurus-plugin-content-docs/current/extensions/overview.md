@@ -27,11 +27,11 @@ Một số tiện ích tích hợp cũng cần internet để thực sự hoạt
 
 ## Gửi tiện ích mở rộng
 
-Mở **Extensions Store** trong menu công cụ của trình biên tập để duyệt tiện ích cộng đồng ở một cửa sổ riêng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên tác giả công khai, phiên bản, mô tả và ảnh bìa PNG, JPEG hoặc WebP tùy chọn (tối đa 2 MB). Gửi extension không cần và không gửi session token tài khoản; Worker giới hạn số lần gửi theo IP và giữ mọi bản gửi để admin duyệt. Worker lưu metadata của catalog trong D1, còn mã nguồn và ảnh bìa được tải lên Catbox. Tệp đã duyệt được phục vụ qua Worker.
+Mở **Extensions Store** trong menu công cụ của trình biên tập để duyệt tiện ích cộng đồng ở một cửa sổ riêng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên tác giả công khai, phiên bản, mô tả và ảnh bìa PNG, JPEG hoặc WebP tùy chọn (tối đa 2 MB). Gửi extension không cần và không gửi session token tài khoản; Worker giới hạn số lần gửi theo IP và giữ mọi bản gửi để admin duyệt. Metadata của catalog được lưu trong tab Google Sheets `Extensions`; mã nguồn và ảnh bìa được Worker quản lý và phục vụ qua Store sau khi được duyệt.
 
 Quản trị viên xem xét mã JavaScript trong admin panel của main-page. Khi được duyệt, phiên bản sẽ tự động xuất hiện trong Store. Quản trị viên có thể cập nhật thông tin, ảnh bìa hoặc mã nguồn của phiên bản đã duyệt, hoặc gỡ tất cả phiên bản của tiện ích khỏi Store. Bản gửi và cập nhật đang chờ duyệt sẽ chưa được liệt kê. Nếu muốn tự dùng mà không công khai, hãy chọn **Custom Extension**.
 
-Worker của main-page trực tiếp xử lý mọi API route của Extensions Store. Worker cần binding D1 hiện có; không cần deploy riêng API MistWarp hay cấu hình `EXTENSION_REVIEW_WORKER_KEY`.
+Worker của main-page trực tiếp xử lý mọi API route của Extensions Store. Tài khoản dịch vụ Google cần có quyền đọc/ghi tab `Extensions`. Tab trống sẽ được khởi tạo tự động; nếu đã có dữ liệu, hàng đầu tiên phải có đúng thứ tự tiêu đề: `hash`, `extensionId`, `name`, `author`, `description`, `version`, `status`, `sourceFileId`, `coverFileId`, `coverMime`, `submittedAt`, `updatedAt`. Binding D1 hiện có chỉ dùng để giới hạn tần suất gửi. Không cần deploy riêng API MistWarp hay cấu hình `EXTENSION_REVIEW_WORKER_KEY`.
 
 ## Nạp một tiện ích mở rộng tùy chỉnh
 

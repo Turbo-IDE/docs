@@ -27,11 +27,11 @@ A few built-in extensions also need the internet to actually work (not just to l
 
 ## Submitting an extension
 
-Open **Extensions Store** from the editor's tools menu to browse community extensions in a separate window. Choose **Publish an extension** to submit a JavaScript file with its ID, name, public author name, version, description, and an optional PNG, JPEG, or WebP cover image (up to 2 MB). Submissions do not require or send an account session token; the Worker applies an IP-based submission limit and holds every submission for admin review. The Worker stores catalog metadata in D1 and uploads extension source and covers to Catbox. Approved source and cover files are served through the Worker.
+Open **Extensions Store** from the editor's tools menu to browse community extensions in a separate window. Choose **Publish an extension** to submit a JavaScript file with its ID, name, public author name, version, description, and an optional PNG, JPEG, or WebP cover image (up to 2 MB). Submissions do not require or send an account session token; the Worker applies an IP-based submission limit and holds every submission for admin review. Catalog metadata is stored in the `Extensions` Google Sheets tab. Source and cover files are handled by the Worker and served through the Store after approval.
 
 Administrators review the JavaScript in the main-page admin panel. Approval publishes the version to the Store automatically. Administrators can update the metadata, cover, or code of an approved version, or remove all versions of an extension from the Store. Pending submissions and updates are not listed. To use an extension without publishing it, choose **Custom Extension** instead.
 
-The main-page Worker handles all Extensions Store API routes directly. It needs its existing D1 binding; no separate MistWarp API deployment or `EXTENSION_REVIEW_WORKER_KEY` is required.
+The main-page Worker handles all Extensions Store API routes directly. Its Google service account needs read/write access to the `Extensions` tab. An empty tab is initialized automatically; otherwise row 1 must contain these headers in order: `hash`, `extensionId`, `name`, `author`, `description`, `version`, `status`, `sourceFileId`, `coverFileId`, `coverMime`, `submittedAt`, `updatedAt`. The existing D1 binding is used only for submission rate limits. No separate MistWarp API deployment or `EXTENSION_REVIEW_WORKER_KEY` is required.
 
 ## Loading a custom extension
 

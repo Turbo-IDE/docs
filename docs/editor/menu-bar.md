@@ -48,6 +48,7 @@ A **Mode** menu appears only during the editor's occasional April Fools state. I
 - **Debugger** and **Variable Manager** appear when those tools are available, opening the [debugger](/editor/debugger) and [variable manager](/editor/variable-manager).
 - **Add Extension** (`Ctrl+.`) opens the [extension library](/extensions/overview) to add or import an extension.
 - **Manage Extensions** (`Ctrl+Alt+E`) lists the extensions already loaded in the project.
+- **Asset Store** opens the TurboShare asset catalog. Browse images and sounds and add them to the currently selected sprite or stage.
 
 ## Bookmarks
 

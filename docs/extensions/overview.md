@@ -25,6 +25,10 @@ Turbo-IDE ships with two kinds of extension in the library:
 
 A few built-in extensions also need the internet to actually work (not just to load): Text to Speech and Translate call an online service every time you use them, and hardware extensions may fetch firmware or connection assets.
 
+## Submitting an extension
+
+The extension library also includes the Turbo-IDE community marketplace. Choose **Submit an extension** to upload a JavaScript file with its ID, name, version, and description. Submissions and updates remain private until an administrator reviews and approves them; only approved versions appear in the marketplace.
+
 ## Loading a custom extension
 
 If an extension is not in the library, you can load it yourself from a URL, a local file, or pasted JavaScript source. Open the extension library and choose **Custom Extension**. See [Custom Extensions](/extensions/custom-extension) for the details, including the difference between sandboxed and unsandboxed extensions and the security prompt you will see.

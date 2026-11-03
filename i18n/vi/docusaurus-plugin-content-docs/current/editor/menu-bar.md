@@ -48,6 +48,7 @@ Menu **Mode** chỉ xuất hiện trong trạng thái cá tháng Tư thỉnh tho
 - **Debugger** và **Variable Manager** xuất hiện khi các công cụ đó khả dụng, mở [trình gỡ lỗi](/editor/debugger) và [trình quản lý biến](/editor/variable-manager).
 - **Add Extension** (`Ctrl+.`) mở [thư viện tiện ích mở rộng](/extensions/overview) để thêm hoặc nhập một tiện ích.
 - **Manage Extensions** (`Ctrl+Alt+E`) liệt kê các tiện ích đã nạp trong dự án.
+- **Asset Store** mở kho tài nguyên TurboShare. Bạn có thể duyệt hình ảnh và âm thanh rồi thêm vào nhân vật hoặc sân khấu đang chọn.
 
 ## Bookmarks
 

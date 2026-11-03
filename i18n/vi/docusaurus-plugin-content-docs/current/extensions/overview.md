@@ -25,6 +25,10 @@ Turbo-IDE cung cấp hai loại tiện ích trong thư viện:
 
 Một số tiện ích tích hợp cũng cần internet để thực sự hoạt động (không chỉ để nạp): Text to Speech và Translate gọi một dịch vụ trực tuyến mỗi lần bạn dùng, và các tiện ích phần cứng có thể tải firmware hoặc tài nguyên kết nối.
 
+## Gửi tiện ích mở rộng
+
+Thư viện tiện ích cũng có chợ cộng đồng Turbo-IDE. Chọn **Submit an extension** để tải tệp JavaScript cùng ID, tên, phiên bản và mô tả. Bản gửi và các bản cập nhật sẽ ở chế độ riêng tư cho đến khi quản trị viên xem xét và phê duyệt; chỉ phiên bản đã được duyệt mới xuất hiện trên chợ.
+
 ## Nạp một tiện ích mở rộng tùy chỉnh
 
 Nếu một tiện ích không có trong thư viện, bạn có thể tự nạp nó từ một URL, một tệp cục bộ, hoặc mã JavaScript dán trực tiếp. Mở thư viện tiện ích mở rộng và chọn **Custom Extension**. Xem [Tiện ích tùy chỉnh](/extensions/custom-extension) để biết chi tiết, kể cả sự khác nhau giữa tiện ích sandboxed và unsandboxed, cùng dấu hiệu bảo mật bạn sẽ thấy.

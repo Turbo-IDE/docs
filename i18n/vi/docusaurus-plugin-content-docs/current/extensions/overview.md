@@ -27,11 +27,11 @@ Một số tiện ích tích hợp cũng cần internet để thực sự hoạt
 
 ## Gửi tiện ích mở rộng
 
-Mở **Extensions Store** trong menu công cụ của trình biên tập để duyệt tiện ích cộng đồng ở một cửa sổ riêng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên, phiên bản, mô tả và ảnh bìa PNG, JPEG hoặc WebP tùy chọn (tối đa 2 MB). Mã nguồn và ảnh bìa được tải lên Catbox phía máy chủ. Trình duyệt gửi yêu cầu Store qua Worker của main-page; mã nguồn và ảnh bìa đã duyệt cũng được phục vụ qua Worker đó.
+Mở **Extensions Store** trong menu công cụ của trình biên tập để duyệt tiện ích cộng đồng ở một cửa sổ riêng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên tác giả công khai, phiên bản, mô tả và ảnh bìa PNG, JPEG hoặc WebP tùy chọn (tối đa 2 MB). Gửi extension không cần và không gửi session token tài khoản; Worker giới hạn số lần gửi theo IP và giữ mọi bản gửi để admin duyệt. Worker lưu metadata của catalog trong D1, còn mã nguồn và ảnh bìa được tải lên Catbox. Tệp đã duyệt được phục vụ qua Worker.
 
 Quản trị viên xem xét mã JavaScript trong admin panel của main-page. Khi được duyệt, phiên bản sẽ tự động xuất hiện trong Store. Quản trị viên có thể cập nhật thông tin, ảnh bìa hoặc mã nguồn của phiên bản đã duyệt, hoặc gỡ tất cả phiên bản của tiện ích khỏi Store. Bản gửi và cập nhật đang chờ duyệt sẽ chưa được liệt kê. Nếu muốn tự dùng mà không công khai, hãy chọn **Custom Extension**.
 
-Worker và API phải được cấu hình cùng một secret `EXTENSION_REVIEW_WORKER_KEY` để tải ảnh bìa và duyệt nội dung. Có thể đặt `EXTENSIONS_API_BASE` trên Worker để thay URL API mặc định `https://api.mistwarp.org/v1`, và `EXTENSION_STORE_PUBLIC_ORIGIN` để thay origin công khai mặc định `https://turboshare.org.uk`.
+Worker của main-page trực tiếp xử lý mọi API route của Extensions Store. Worker cần binding D1 hiện có; không cần deploy riêng API MistWarp hay cấu hình `EXTENSION_REVIEW_WORKER_KEY`.
 
 ## Nạp một tiện ích mở rộng tùy chỉnh
 

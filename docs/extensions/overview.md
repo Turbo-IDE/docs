@@ -27,7 +27,7 @@ A few built-in extensions also need the internet to actually work (not just to l
 
 ## Submitting an extension
 
-The extension library also includes the Turbo-IDE community marketplace. Choose **Submit an extension** to upload a JavaScript file with its ID, name, version, and description. Submissions and updates remain private until an administrator reviews and approves them; only approved versions appear in the marketplace.
+The extension library has a separate **Extensions Store** category for community extensions. Choose **Publish an extension** to send a JavaScript file with its ID, name, version, and description for administrator review. Pending submissions and updates are not listed in the store; only approved versions appear. To use an extension without publishing it, choose **Custom Extension** instead.
 
 ## Loading a custom extension
 

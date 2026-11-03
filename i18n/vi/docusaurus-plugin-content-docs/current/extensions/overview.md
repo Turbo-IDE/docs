@@ -27,7 +27,7 @@ Một số tiện ích tích hợp cũng cần internet để thực sự hoạt
 
 ## Gửi tiện ích mở rộng
 
-Thư viện tiện ích cũng có chợ cộng đồng Turbo-IDE. Chọn **Submit an extension** để tải tệp JavaScript cùng ID, tên, phiên bản và mô tả. Bản gửi và các bản cập nhật sẽ ở chế độ riêng tư cho đến khi quản trị viên xem xét và phê duyệt; chỉ phiên bản đã được duyệt mới xuất hiện trên chợ.
+Thư viện tiện ích có mục riêng **Extensions Store** dành cho tiện ích cộng đồng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên, phiên bản và mô tả cho quản trị viên xem xét. Bản gửi và cập nhật đang chờ duyệt sẽ chưa được liệt kê; chỉ phiên bản đã duyệt mới xuất hiện trên cửa hàng. Nếu muốn tự dùng mà không công khai, hãy chọn **Custom Extension**.
 
 ## Nạp một tiện ích mở rộng tùy chỉnh
 

@@ -27,7 +27,11 @@ A few built-in extensions also need the internet to actually work (not just to l
 
 ## Submitting an extension
 
-The extension library has a separate **Extensions Store** category for community extensions. Choose **Publish an extension** to send a JavaScript file with its ID, name, version, and description for administrator review. Pending submissions and updates are not listed in the store; only approved versions appear. To use an extension without publishing it, choose **Custom Extension** instead.
+Open **Extensions Store** from the editor's tools menu to browse community extensions in a separate window. Choose **Publish an extension** to submit a JavaScript file with its ID, name, version, description, and an optional PNG, JPEG, or WebP cover image (up to 2 MB). The cover and extension source are uploaded server-side to Catbox. The browser sends store requests through the main-page Worker; approved source and cover URLs are served through that Worker as well.
+
+Administrators review the JavaScript in the main-page admin panel. Approval publishes the version to the Store automatically. Administrators can update the metadata, cover, or code of an approved version, or remove all versions of an extension from the Store. Pending submissions and updates are not listed. To use an extension without publishing it, choose **Custom Extension** instead.
+
+The Worker and API must both be configured with the same `EXTENSION_REVIEW_WORKER_KEY` secret for cover uploads and admin moderation. The Worker can use `EXTENSIONS_API_BASE` to override the default `https://api.mistwarp.org/v1` API URL, and `EXTENSION_STORE_PUBLIC_ORIGIN` to override the default `https://turboshare.org.uk` public origin.
 
 ## Loading a custom extension
 

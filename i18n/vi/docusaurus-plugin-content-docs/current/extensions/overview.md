@@ -27,7 +27,11 @@ Một số tiện ích tích hợp cũng cần internet để thực sự hoạt
 
 ## Gửi tiện ích mở rộng
 
-Thư viện tiện ích có mục riêng **Extensions Store** dành cho tiện ích cộng đồng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên, phiên bản và mô tả cho quản trị viên xem xét. Bản gửi và cập nhật đang chờ duyệt sẽ chưa được liệt kê; chỉ phiên bản đã duyệt mới xuất hiện trên cửa hàng. Nếu muốn tự dùng mà không công khai, hãy chọn **Custom Extension**.
+Mở **Extensions Store** trong menu công cụ của trình biên tập để duyệt tiện ích cộng đồng ở một cửa sổ riêng. Chọn **Publish an extension** để gửi tệp JavaScript cùng ID, tên, phiên bản, mô tả và ảnh bìa PNG, JPEG hoặc WebP tùy chọn (tối đa 2 MB). Mã nguồn và ảnh bìa được tải lên Catbox phía máy chủ. Trình duyệt gửi yêu cầu Store qua Worker của main-page; mã nguồn và ảnh bìa đã duyệt cũng được phục vụ qua Worker đó.
+
+Quản trị viên xem xét mã JavaScript trong admin panel của main-page. Khi được duyệt, phiên bản sẽ tự động xuất hiện trong Store. Quản trị viên có thể cập nhật thông tin, ảnh bìa hoặc mã nguồn của phiên bản đã duyệt, hoặc gỡ tất cả phiên bản của tiện ích khỏi Store. Bản gửi và cập nhật đang chờ duyệt sẽ chưa được liệt kê. Nếu muốn tự dùng mà không công khai, hãy chọn **Custom Extension**.
+
+Worker và API phải được cấu hình cùng một secret `EXTENSION_REVIEW_WORKER_KEY` để tải ảnh bìa và duyệt nội dung. Có thể đặt `EXTENSIONS_API_BASE` trên Worker để thay URL API mặc định `https://api.mistwarp.org/v1`, và `EXTENSION_STORE_PUBLIC_ORIGIN` để thay origin công khai mặc định `https://turboshare.org.uk`.
 
 ## Nạp một tiện ích mở rộng tùy chỉnh
 
